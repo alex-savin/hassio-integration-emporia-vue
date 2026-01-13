@@ -1,0 +1,11 @@
+{
+  "domain": "emporia_vue",
+  "name": "Emporia Vue (WS Add-on)",
+  "codeowners": ["@alex-savin"],
+  "config_flow": true,
+  "documentation": "https://github.com/alex-savin/hassio-integration-emporia-vue",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/alex-savin/hassio-integration-emporia-vue/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

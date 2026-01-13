@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Emporia Vue Setup",
+        "description": "Connect to your Emporia Vue energy monitor through the WebSocket add-on.",
+        "data": {
+          "ws_url": "WebSocket URL",
+          "username": "Username",
+          "password": "Password"
+        },
+        "data_description": {
+          "ws_url": "The WebSocket URL of the Emporia Vue add-on",
+          "username": "Your Emporia account email",
+          "password": "Your Emporia account password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication. Please check your username and password.",
+      "cannot_connect": "Failed to connect to the WebSocket server."
+    },
+    "abort": {
+      "already_configured": "This Emporia Vue instance is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Emporia Vue Options",
+        "description": "Configure usage data scales.",
+        "data": {
+          "scales": "Usage Scales"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "connection": {
+        "name": "Connection"
+      },
+      "usage_1min": {
+        "name": "Usage (1 min)"
+      },
+      "power_1min": {
+        "name": "Power (1 min)"
+      }
+    },
+    "switch": {
+      "outlet": {
+        "name": "Outlet"
+      }
+    }
+  }
+}
